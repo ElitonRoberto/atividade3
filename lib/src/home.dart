@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '/src/homeladr.dart';
+//import 'src/homehab.dart';
 
 class HomePage extends StatelessWidget {
   @override
@@ -20,13 +20,13 @@ class HomePage extends StatelessWidget {
             Container(
               child: TextButton(
                 onPressed: () {
-                  Navigator.pushNamed(context, '/homeladr');
+                  Navigator.pushNamed(context, '/homehab');
                 },
                 child: Container(
                   margin: const EdgeInsets.fromLTRB(10, 10, 10, 20),
                   child: Column(children: [
                     Image(
-                      image: AssetImage("assets/1.webp"),
+                      image: AssetImage("assets/1.jpg"),
                     ),
                     //color: Colors.yellow,
                     Text("aaaaa"),
@@ -34,7 +34,6 @@ class HomePage extends StatelessWidget {
                 ),
               ),
             ),
-
             Container(
               child: TextButton(
                 onPressed: () {
@@ -44,7 +43,7 @@ class HomePage extends StatelessWidget {
                   margin: const EdgeInsets.fromLTRB(10, 10, 10, 20),
                   child: Column(children: [
                     Image(
-                      image: AssetImage("assets/2.jpg"),
+                      image: AssetImage("assets/2.webp"),
                     ),
                     //color: Colors.yellow,
                     Text("aaaaa"),
@@ -52,7 +51,6 @@ class HomePage extends StatelessWidget {
                 ),
               ),
             ),
-
             Container(
               child: TextButton(
                 onPressed: () {
@@ -70,7 +68,6 @@ class HomePage extends StatelessWidget {
                 ),
               ),
             ),
-
             Container(
               child: TextButton(
                 onPressed: () {
@@ -88,7 +85,6 @@ class HomePage extends StatelessWidget {
                 ),
               ),
             ),
-
           ],
 
           /*Container(
