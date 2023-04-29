@@ -18,6 +18,6 @@ class MeuApp extends StatelessWidget {
       },
       initialRoute: '/home',
     );
-    Navigator.pushNamed(context, '/homeladr');
+    Navigator.pushNamed(context, '/homehome');
   }
 }
