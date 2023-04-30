@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'homehab.dart';
 
 class HomePage extends StatelessWidget {
   @override
@@ -7,7 +6,7 @@ class HomePage extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: const Text("Principal"),
+          title: const Text("Livros"),
           centerTitle: true,
         ),
         body: GridView.count(
@@ -29,7 +28,7 @@ class HomePage extends StatelessWidget {
                       image: AssetImage("assets/1.jpg"),
                     ),
                     //color: Colors.yellow,
-                    Text("aaaaa"),
+                    Text("O poder do Hábito"),
                   ]),
                 ),
               ),
@@ -37,7 +36,7 @@ class HomePage extends StatelessWidget {
             Container(
               child: TextButton(
                 onPressed: () {
-                  Navigator.pushNamed(context, '/homeladr');
+                  Navigator.pushNamed(context, '/');
                 },
                 child: Container(
                   margin: const EdgeInsets.fromLTRB(10, 10, 10, 20),
@@ -46,7 +45,7 @@ class HomePage extends StatelessWidget {
                       image: AssetImage("assets/2.webp"),
                     ),
                     //color: Colors.yellow,
-                    Text("aaaaa"),
+                    Text("F*deu Geral"),
                   ]),
                 ),
               ),
@@ -54,7 +53,7 @@ class HomePage extends StatelessWidget {
             Container(
               child: TextButton(
                 onPressed: () {
-                  Navigator.pushNamed(context, '/homeladr');
+                  Navigator.pushNamed(context, '/');
                 },
                 child: Container(
                   margin: const EdgeInsets.fromLTRB(10, 10, 10, 20),
@@ -63,7 +62,7 @@ class HomePage extends StatelessWidget {
                       image: AssetImage("assets/3.jpg"),
                     ),
                     //color: Colors.yellow,
-                    Text("aaaaa"),
+                    Text("O poder da ação"),
                   ]),
                 ),
               ),
@@ -71,7 +70,7 @@ class HomePage extends StatelessWidget {
             Container(
               child: TextButton(
                 onPressed: () {
-                  Navigator.pushNamed(context, '/homeladr');
+                  Navigator.pushNamed(context, '/');
                 },
                 child: Container(
                   margin: const EdgeInsets.fromLTRB(10, 10, 10, 20),
@@ -80,7 +79,7 @@ class HomePage extends StatelessWidget {
                       image: AssetImage("assets/4.jpg"),
                     ),
                     //color: Colors.yellow,
-                    Text("aaaaa"),
+                    Text("O poder da autorresponsabilidade"),
                   ]),
                 ),
               ),

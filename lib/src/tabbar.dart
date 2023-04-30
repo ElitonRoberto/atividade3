@@ -8,7 +8,7 @@ class Tabbar extends StatelessWidget {
       length: 2,
       child: Scaffold(
         appBar: AppBar(
-          title: const Text("Configurar"),
+          title: const Text("Sobre o livro"),
           centerTitle: true,
           bottom: const TabBar(
             tabs: [
