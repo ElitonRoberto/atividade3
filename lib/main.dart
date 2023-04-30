@@ -20,6 +20,5 @@ class MeuApp extends StatelessWidget {
       },
       initialRoute: '/home',
     );
-    //Navigator.pushNamed(context, '/homehab');
   }
 }

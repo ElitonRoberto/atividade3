@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import './home.dart';
+import './homehab.dart';
 
 class Tabbar extends StatelessWidget {
   @override
@@ -8,17 +8,17 @@ class Tabbar extends StatelessWidget {
       length: 2,
       child: Scaffold(
         appBar: AppBar(
-          title: const Text("Sobre o livro"),
+          title: const Text("Sobre o Livro"),
           centerTitle: true,
-          bottom: const TabBar(
-            tabs: [
+          bottom: const TabBar(tabs: [
             Text("Principal"),
             Text("Detalhes"),
           ]),
         ),
         body: TabBarView(
           children: [
-            HomePage(),
+            HomeHab(),
+            HomeDet(),
           ],
         ),
       ),

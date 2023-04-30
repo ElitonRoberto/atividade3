@@ -19,7 +19,7 @@ class HomePage extends StatelessWidget {
             Container(
               child: TextButton(
                 onPressed: () {
-                  Navigator.pushNamed(context, '/homehab');
+                  Navigator.pushNamed(context, '/tabbar');
                 },
                 child: Container(
                   margin: const EdgeInsets.fromLTRB(10, 10, 10, 20),
@@ -27,7 +27,6 @@ class HomePage extends StatelessWidget {
                     Image(
                       image: AssetImage("assets/1.jpg"),
                     ),
-                    //color: Colors.yellow,
                     Text("O poder do Hábito"),
                   ]),
                 ),
@@ -44,7 +43,6 @@ class HomePage extends StatelessWidget {
                     Image(
                       image: AssetImage("assets/2.webp"),
                     ),
-                    //color: Colors.yellow,
                     Text("F*deu Geral"),
                   ]),
                 ),
@@ -61,7 +59,6 @@ class HomePage extends StatelessWidget {
                     Image(
                       image: AssetImage("assets/3.jpg"),
                     ),
-                    //color: Colors.yellow,
                     Text("O poder da ação"),
                   ]),
                 ),
@@ -78,41 +75,13 @@ class HomePage extends StatelessWidget {
                     Image(
                       image: AssetImage("assets/4.jpg"),
                     ),
-                    //color: Colors.yellow,
                     Text("O poder da autorresponsabilidade"),
                   ]),
                 ),
               ),
             ),
           ],
-
-          /*Container(
-                  color: Colors.green
-                ),
-                Container(
-                  color: Colors.blue
-                ),
-                Container(
-                  color: Colors.red
-                )*/
         ),
-
-        /*menu lateral* drawer: Drawer(
-            child: ListView(
-              children:[
-                DrawerHeader(
-                  child: Text("Filho"),
-                  decoration: BoxDecoration(
-                    color: Colors.amber
-                  ),
-                  ),
-                ListTile(
-                  title: Text("Teste"),
-                  onTap:() {},
-                )
-              ]
-            )
-          )*/
       ),
     );
   }
